@@ -28,7 +28,7 @@ void InsertionSort(int* array)
 {
 	int i, j;
 	int temp;
-	for(i = 1; i < LENGHT; i++) // 5 0 10 1 40
+	for(i = 1; i < LENGHT; i++) 
 	{
 		for(j = i - 1; j >= 0; j--) 
 		{
